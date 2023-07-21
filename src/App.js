@@ -23,7 +23,7 @@ const[progress,setProgress]=useState(0)
         progress={setProgress}
       />
       <Routes>
-      <Route exact path="/" element={<News setProgress={setProgress} apiKey={apiKey}  key="general" country="in" category="general"/>}/>  
+      <Route exact path="/NewsApp" element={<News setProgress={setProgress} apiKey={apiKey}  key="general" country="in" category="general"/>}/>  
       <Route exact path="/home" element={<News setProgress={setProgress} apiKey={apiKey}  key="general" country="in" category="general"/>}/>
       <Route exact path="/business" element={<News setProgress={setProgress} apiKey={apiKey}  key="business" country="in" category="business"/>}/>
       <Route exact path="/entertainment" element={<News setProgress={setProgress} apiKey={apiKey}  key="entertainment" country="in" category="entertainment"/>}/>
